@@ -32,3 +32,20 @@ print (f"runtime: {end_time - start_time} seconds")
 # Python has built-in tools that allow for a very efficient approach to this problem
 # What's the best time you can accomplish?  Thare are no restrictions on techniques or data
 # structures, but you may not import any additional libraries that you did not write yourself.
+
+stretchstart_time = time.time()
+
+nameList = []
+stretchDuplicates = []
+
+for name in names_1:
+        nameList.append(nameList)
+for name in names_2:
+    if name in nameList:
+        stretchDuplicates.append(name)
+
+stretchend_time = time.time()
+print (f"{len(duplicates)} duplicates:\n\n{', '.join(duplicates)}\n\n")
+print (f"runtime: {stretchend_time - stretchstart_time} seconds")
+
+# Of course is is going to be slower .... difference for my computer is 0.145 (BST) vs 1.90 (Array).
