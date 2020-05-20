@@ -1,5 +1,5 @@
 import time
-
+#Didn't checkout to my working branch I guess ... even though I cloned the working branch ... eyeroll
 start_time = time.time()
 
 from BinarySearchTree import BinarySearchTree
